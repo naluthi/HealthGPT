@@ -1,0 +1,8 @@
+fastapi[all]
+constants
+openai
+python-dotenv
+pydantic==1.*
+langchain
+faiss-cpu
+tiktoken
