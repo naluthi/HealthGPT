@@ -1,12 +1,17 @@
-# HealthGPT: Specialized Chatbots for Reliable Health Advice
+# HealthGPT
 
 ![GitHub top language](https://img.shields.io/github/languages/top/naluthi/HealthGPT) 
-[![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-yellow?style=flat&logo=huggingface&logoColor=white)](https://huggingface.co/) 
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/naluthi/HealthGPT) 
 [![LangChain](https://img.shields.io/badge/-LangChain-lightgrey?style=flat)](https://github.com/LangChain/langchain) 
 [![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/) 
 
+## Description
+
+HealthGPT is an AI-powered chatbot designed with a focus on providing specialized health advice. During my summer internship, I was tasked with creating a chatbot, with the main goal of providing basic information to the user that was consistent and accurate. I created this chatbot before OpenAI's custom GPT features, which pushed me to learn and understand machine learning and large language models by leveraging the OpenAI API and HuggingFace's CSV data. The core idea was to train multiple 'specialty doctor' GPTs who could provide targeted advice based on health data similarities. This is also a 'first take' at building this chatbot and was mainly used as a test case before building a Flask app and making the driver code more complex. 
+
 ## Table of Contents
 - [Description](#description)
+- [Tools](#tools)
 - [Solutions](#solutions)
 - [Challenges](#challenges)
 - [Features](#features)
@@ -14,10 +19,7 @@
 - [License](#license)
 - [Contact](#contact)
   
-## Description
-
-HealthGPT is an AI-powered chatbot designed with a focus on providing specialized health advice. During my summer internship, I was tasked with creating a chatbot, with the main goal of providing basic information to the user that was consistent and accurate. I created this chatbot before OpenAI's custom GPT features, which pushed me to learn and understand machine learning and large language models by leveraging the OpenAI API and HuggingFace's CSV data. The core idea was to train multiple 'specialty doctor' GPTs who could provide targeted advice based on health data similarities. This is also a 'first take' at building this chatbot and was mainly used as a test case before building a Flask app and making the driver code more complex. 
-
+## Tools
 - **Langchain:** To seamlessly load CSV data and integrate OpenAI embeddings.
 - **FAISS:** Used for efficient similarity search among documents loaded from CSV files. This is part of the LangChain integration and is useful for large datasets.
 - **OpenAI APIs:** Leading the field in AI with comprehensive guides and efficient character generation.
