@@ -16,7 +16,6 @@ HealthGPT is an AI-powered chatbot designed with a focus on providing specialize
 - [Challenges](#challenges)
 - [Features](#features)
 - [Installation](#installation)
-- [License](#license)
 - [Contact](#contact)
   
 ## Tools
@@ -65,10 +64,6 @@ git clone https://github.com/naluthi/HealthGPT.git
 ```md
 pip install -r requirements.txt
 ```
-
-## License
-
-This project is available under the [MIT License](LICENSE). This allows other developers to use, modify, and distribute the project subject to the license terms.
 
 # Contact 
 
